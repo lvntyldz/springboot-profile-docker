@@ -21,3 +21,9 @@ OR
 ```
 $ docker run --name springboot-container -p 8085:8085  -e "SPRING_PROFILES_ACTIVE=test"    -d springboot-image
 ```
+
+
+### Visit below URLS:
+<br/>helloworld endpoint : http://localhost:8085/get-info
+<br/>get active profile  :  http://localhost:8085/get-info/active-profile
+<br/>get default profile : http://localhost:8085/get-info/default-profile
